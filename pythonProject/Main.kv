@@ -1,0 +1,26 @@
+MDBoxLayout:
+  orientation:"vertical"
+  padding:"20px"
+
+  MDLabel:
+    text:"my app python"
+    halign:"center"
+  MDTextField:
+    id:textfild
+    size_hint:None,None
+    pos_hint:{"center_x":0.5}
+    width: 500
+    height:100
+  Button:
+    text:"Click 111"
+    size_hint:None,None
+    pos_hint:{"center_x":0.5}
+    width: 500
+    height:100
+    on_press:app.myresult()
+  Button:
+    text:"Click 22"
+  MDLabel:
+    id:label1
+    text:"my app python"
+    halign:"center"
